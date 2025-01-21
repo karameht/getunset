@@ -1,0 +1,218 @@
+/*
+ * <!ALL unset.css />
+ * -------------------------------------------
+ * Kill the defaults. Unleash the nothingness.
+ */
+
+/*
+ * Why use all-unset.css?
+ * 1) The ultimate reset: No defaults, no styles, no mercy.
+ * 2) To understand the pure state of HTML.
+ * 3) To destroy all browser defaults.
+ * 4) To laugh at chaos while learning CSS.
+ *
+ * Features:
+ * - All browser defaults are gone.
+ * - Start from a blank canvas.
+ * - Learn the true meaning of chaos and control.
+ *
+ * Minimum browser versions for "all: unset":
+ * - Chrome 37+
+ * - Firefox 27+
+ * - Opera 24+
+ * - Safari 9+
+ * - Edge (Chromium) 79+
+ * - No support in Internet Explorer. RIP. 😂
+ *
+ * Additional notes:
+ * - This removes focus outlines, so keyboard users won't see focus.
+ * - If you rely on sub or sup, they are no longer raised or lowered.
+ * - Browser elements like <dialog> or <details> lose native behavior visuals.
+ * - Redefine everything you need (display, focus states, etc.) in your own CSS.
+ *
+ * The result: total chaos, pure emptiness.
+ * You wanted it. Enjoy.
+ */
+
+/* 0) UNIVERSAL SELECTORS */
+/* The starting point. Reset everything. Trust no one. */
+*,
+*::before,
+*::after {
+  all: unset;
+  box-sizing: border-box; /* Keep the box model consistent */
+}
+
+/* 1) DOCUMENT METADATA */
+/* HTML essentials? Gone. The browser is your canvas now. */
+html,
+base,
+head,
+link,
+meta,
+style,
+title,
+
+/* 2) SECTIONING CONTENT */
+/* Headers, footers, and sections – stripped of all meaning. */
+body,
+address,
+article,
+aside,
+footer,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+main,
+nav,
+section,
+
+/* 3) TEXT CONTENT & SEMANTICS */
+/* Text without rules. Format it yourself. */
+blockquote,
+cite,
+dd,
+div,
+dl,
+dt,
+figcaption,
+figure,
+hr,
+li,
+ol,
+p,
+pre,
+ul,
+abbr,
+b,
+bdi,
+bdo,
+br,
+code,
+data,
+dfn,
+em,
+i,
+kbd,
+mark,
+q,
+rb,
+rp,
+rt,
+rtc,
+ruby,
+s,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+time,
+u,
+var,
+wbr,
+
+/* 4) MEDIA & EMBEDS */
+/* Your images, videos, and audio are just blank slates now. */
+area,
+audio,
+img,
+map,
+track,
+video,
+embed,
+object,
+param,
+source,
+canvas,
+script,
+noscript,
+
+/* 5) TABLE ELEMENTS */
+/* Tables lose their structure. Define it yourself. */
+caption,
+col,
+colgroup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+
+/* 6) FORMS & INTERACTIVE */
+/* Your forms are naked. Make them beautiful, if you dare. */
+button,
+datalist,
+fieldset,
+form,
+input,
+label,
+legend,
+meter,
+optgroup,
+option,
+output,
+progress,
+select,
+textarea,
+
+/* 7) DISCLOSURE & DIALOG */
+/* Fancy details? Dialogs? Reset to raw. */
+details,
+dialog,
+menu,
+menuitem,
+summary,
+
+/* 8) SHADOW-DOM & TEMPLATES */
+/* Even the Shadow DOM gets no mercy. */
+slot,
+template,
+
+/* 9) SPECIAL PSEUDO-ELEMENTS */
+/* Those cute pseudo-elements? Blank slates. */
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  all: unset;
+  box-sizing: border-box;
+}
+
+/* 10) PSEUDO-CLASSES */
+/* Hover, focus, active – reset and redefine. */
+*:hover,
+*:focus,
+*:active,
+*:focus-visible,
+
+/* 11) PLACEHOLDER (Modern + Legacy) */
+/* Placeholders are gone. Create your own magic. */
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  all: unset;
+}
+
+/* 12) SCROLLBAR REMOVAL */
+/* Bye-bye, scrollbar. Minimalism wins. */
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/*
+ * Chaos is not a bug, it’s a feature.
+ * Reset the world, one CSS rule at a time.
+ * Welcome to the void.
+ */
